@@ -50,4 +50,6 @@ router.delete("/delete/:id", async (req, res) => {
     res.send("Product deleted!");
 });
 
+
+
 export default router;
